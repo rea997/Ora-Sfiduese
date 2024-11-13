@@ -1,0 +1,22 @@
+.content{
+   display: flex;
+   flex-direction: row;
+   padding: 150px;
+   
+}
+.card{
+   height: 200px;
+   border-radius: 20px;
+   margin: 50px;
+}
+.facilities{
+   width: 250px;
+}
+.employees{
+   width: 180px;
+}
+.content :hover{
+    background-color: purple;
+    transition: 2s;
+    scale: 1.1;
+}
